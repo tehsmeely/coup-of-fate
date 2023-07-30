@@ -25,7 +25,7 @@ You can feel the water flow down your parched throat and rejuvinate your airways
 = start_explaining 
 
 "Hit you that hard, did they?" The old man chuckles in response to your question.
-Responding to your blank stare, he continues: "You're presently as his lordships's pleasure. Yes, -that- lordship".
+Responding to your blank stare, he continues: "You're presently at his lordships's pleasure. Yes, -that- lordship".
 "I presume they rounded you up off the street? Don't you remember anything?"
 -> recall1
 
@@ -95,6 +95,43 @@ At your dumb response, the man squints his eyes and looks thoughtful for a secon
     Sailing  smoothly through the air, then thudding between the bars in the the window, a small leather pouch arrives in the room. The old man steps swiftly, much more deftly than he had first appeared capable, forward and catches it as it falls.
     Looking up and winking at you, he quickly unties the bag draw-string and removes from it several items: A small knife, a bundle of thin, hooked metal strips, a tiny glass vial containing a pearlescent blue liquid, and a gold signet ring.
     He slips the ring onto his finger, putting the potion and knife in his pocket, before softly walking toward the cell door.
+    -> leaving_the_room
+    
+= leaving_the_room
+    Crouching next to the door he looks back at you, metal strips in hand.
+    "Know what these are?" He asks, with just a hint of condescension detectable
+* "Uh, yeah, those are .. fish hooks?"[], you say, hoping you sound more confident than you are.
+    "Hmm, not a thief or a commoner who can fish .." he mutters in response. -> lockpicks
+* [Shrug]
+    You shrug, not interested in further convincing this man of your ignorance.
+    "Hmpf" he huffs at your passivity. -> lockpicks
+    
+
+= lockpicks
+    "These are of course lockpicks, and for both of us now you can call them 'Salvation' as well."
+    
+    Sorting through the assorted hooks in his palm, he selects two with a happy chuckle to himself and smoohly slides them into the lock. After a few seconds of gentle metal scratching and light sounds of concentration, with you looking on rather confused, a louder click confirms the man's efforts as worthwhile.
+    "Ha ... there! Salvation indeed!", he says in a triumphant but hushed response to the door's click of defeat before slipping the lockpicks back into his pocket and turning to face you.
+    
+    His face suddenly more serious than before, and in a more hushed voice, "Now stay quiet and follow me. We're getting out of here but things won't be quite as easy as they have been. Keep your wits about you"
+* [Nod quietly]
+    Nodding quietly, you crouch slightly and move to follow the man. -> leave_the_cell
+* [Stammer in protest] "I-i-i ... uh, I- .." you stammer, worried what dangers the world outside this room holds for you.
+    The man narrows his eye at you and holds you gaze for a few seconds before saying, "trust me, pal, anything we face getting out of here is nothing compared to what happens if stick around here counting fleas 'til they get around to us. Keep your head down and focus and we'll both be free soon".
+    Pep talk absorbed, you steel your will and nod, ready to follow him from the room. -> leave_the_cell
+    
+
+
+= leave_the_cell
+    With a glance back at you, he slips out of the now open door and out into the dim corridor beyond
+* [Follow]
+    -> escape1.start
+* [Hesitate]
+    You hesitate in the cell, now on your own, contemplating the choices laid out ahead of you. Go now, follow this strange but admittedly friendly man and take fate into your hands, or stay here in this cell and wait the fate that has been placed upon you by whomever rounded you up off the street yesterday. 
+        -> hesitate_leaving_the_cell
+    
+= hesitate_leaving_the_cell
+    
     
 
 -> DONE
